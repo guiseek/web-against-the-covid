@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "webAgainstTheCovid",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "web-against-the-covid",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
