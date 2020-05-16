@@ -15,5 +15,12 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "predeploy": [
+      "yarn lint cloud-functions",
+      "yarn build cloud-functions --prod"
+    ],
+    "source": "/"
+  }
 }

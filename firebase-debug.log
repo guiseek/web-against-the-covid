@@ -1,0 +1,153 @@
+[debug] [2020-05-16T03:30:30.202Z] ----------------------------------------------------------------------
+[debug] [2020-05-16T03:30:30.206Z] Command:       /Users/guiseek/.nvm/versions/node/v10.17.0/bin/node /Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/.bin/firebase emulators:start --only functions
+[debug] [2020-05-16T03:30:30.206Z] CLI Version:   8.2.0
+[debug] [2020-05-16T03:30:30.207Z] Platform:      darwin
+[debug] [2020-05-16T03:30:30.207Z] Node Version:  v10.17.0
+[debug] [2020-05-16T03:30:30.228Z] Time:          Sat May 16 2020 00:30:30 GMT-0300 (GMT-03:00)
+[debug] [2020-05-16T03:30:30.229Z] ----------------------------------------------------------------------
+[debug] [2020-05-16T03:30:30.229Z] 
+[debug] [2020-05-16T03:30:30.284Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-16T03:30:30.285Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[debug] [2020-05-16T03:30:30.376Z] [hub] writing locator at /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/hub-web-against-the-covid.json
+[info] ✔  hub: emulator hub started at http://localhost:4400
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/guiseek/web/workspace/against-covid/web-against-the-covid/" for Cloud Functions...
+[debug] [2020-05-16T03:30:30.680Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-16T03:30:30.680Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-16T03:30:30.681Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-16T03:30:30.681Z] [worker-~diagnostic~-cd49f54e-d4a0-4d41-96ea-a2cb16fbf923]: Assigning socketPath: /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/fire_emu_27209.sock 
+[debug] [2020-05-16T03:30:30.682Z] [worker-~diagnostic~-cd49f54e-d4a0-4d41-96ea-a2cb16fbf923]: BUSY 
+[debug] [2020-05-16T03:30:31.235Z] [runtime-status] [27209] Functions runtime initialized. {"cwd":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid","node_version":"10.17.0"} 
+[debug] [2020-05-16T03:30:31.237Z] [runtime-status] [27209] Disabled runtime features: undefined 
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed as a dependency. To fix this, run "npm install --save firebase-admin" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-05-16T03:30:31.318Z] [worker-~diagnostic~-cd49f54e-d4a0-4d41-96ea-a2cb16fbf923]: exited 
+[debug] [2020-05-16T03:30:31.318Z] [worker-~diagnostic~-cd49f54e-d4a0-4d41-96ea-a2cb16fbf923]: FINISHED 
+[debug] [2020-05-16T03:30:33.227Z] File /Users/guiseek/web/workspace/against-covid/web-against-the-covid/dist/nxdeps.json changed, reloading triggers 
+[debug] [2020-05-16T03:30:34.082Z] File /Users/guiseek/web/workspace/against-covid/web-against-the-covid/dist/apps/cloud/functions/main.js.map changed, reloading triggers 
+[debug] [2020-05-16T03:30:34.083Z] File /Users/guiseek/web/workspace/against-covid/web-against-the-covid/dist/apps/cloud/functions/main.js changed, reloading triggers 
+[debug] [2020-05-16T03:30:35.087Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0 
+[debug] [2020-05-16T03:30:35.093Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-16T03:30:35.094Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-16T03:30:35.094Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-16T03:30:35.094Z] [worker-~diagnostic~-a158ae34-b9ab-4d78-930f-af22c89299cd]: Assigning socketPath: /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/fire_emu_27237.sock 
+[debug] [2020-05-16T03:30:35.094Z] [worker-~diagnostic~-a158ae34-b9ab-4d78-930f-af22c89299cd]: BUSY 
+[debug] [2020-05-16T03:30:35.643Z] [runtime-status] [27237] Functions runtime initialized. {"cwd":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid","node_version":"10.17.0"} 
+[debug] [2020-05-16T03:30:35.647Z] [runtime-status] [27237] Disabled runtime features: undefined 
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed as a dependency. To fix this, run "npm install --save firebase-admin" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-05-16T03:30:35.669Z] [worker-~diagnostic~-a158ae34-b9ab-4d78-930f-af22c89299cd]: exited 
+[debug] [2020-05-16T03:30:35.670Z] [worker-~diagnostic~-a158ae34-b9ab-4d78-930f-af22c89299cd]: FINISHED 
+[debug] [2020-05-16T03:36:23.003Z] ----------------------------------------------------------------------
+[debug] [2020-05-16T03:36:23.006Z] Command:       /Users/guiseek/.nvm/versions/node/v10.17.0/bin/node /Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/.bin/firebase emulators:start --only functions
+[debug] [2020-05-16T03:36:23.007Z] CLI Version:   8.2.0
+[debug] [2020-05-16T03:36:23.007Z] Platform:      darwin
+[debug] [2020-05-16T03:36:23.007Z] Node Version:  v10.17.0
+[debug] [2020-05-16T03:36:23.031Z] Time:          Sat May 16 2020 00:36:23 GMT-0300 (GMT-03:00)
+[debug] [2020-05-16T03:36:23.031Z] ----------------------------------------------------------------------
+[debug] [2020-05-16T03:36:23.032Z] 
+[debug] [2020-05-16T03:36:23.041Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-16T03:36:23.042Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project web-against-the-covid. This may result in unexpected behavior.
+[debug] [2020-05-16T03:36:23.167Z] [hub] writing locator at /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/hub-web-against-the-covid.json
+[info] ✔  hub: emulator hub started at http://localhost:4400
+[info] ✔  functions: Using node@10 from host.
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/guiseek/web/workspace/against-covid/web-against-the-covid/" for Cloud Functions...
+[debug] [2020-05-16T03:36:23.210Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-16T03:36:23.211Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-16T03:36:23.223Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-16T03:36:23.225Z] [worker-~diagnostic~-65f13a07-add6-4afa-b0e8-31f6ebdf071a]: Assigning socketPath: /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/fire_emu_27565.sock 
+[debug] [2020-05-16T03:36:23.227Z] [worker-~diagnostic~-65f13a07-add6-4afa-b0e8-31f6ebdf071a]: BUSY 
+[debug] [2020-05-16T03:36:23.641Z] [runtime-status] [27565] Functions runtime initialized. {"cwd":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid","node_version":"10.17.0"} 
+[debug] [2020-05-16T03:36:23.642Z] [runtime-status] [27565] Disabled runtime features: undefined 
+[debug] [2020-05-16T03:36:23.645Z] [runtime-status] [27565] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-16T03:36:23.646Z] [runtime-status] [27565] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:23.650Z] [runtime-status] [27565] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-16T03:36:23.687Z] [runtime-status] [27565] Checked functions.config() {"config":{}} 
+[debug] [2020-05-16T03:36:23.689Z] [runtime-status] [27565] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:23.689Z] [runtime-status] [27565] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-16T03:36:23.689Z] [runtime-status] [27565] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:23.689Z] [runtime-status] [27565] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"}} 
+[info] >  [Nest] 27565   - 2020-05-16 12:36:24 AM   [NestFactory] Starting Nest application... {"user":"\u001b[32m[Nest] 27565   - \u001b[39m2020-05-16 12:36:24 AM   \u001b[38;5;3m[NestFactory] \u001b[39m\u001b[32mStarting Nest application...\u001b[39m"}
+[info] ✔  emulators: All emulators started, it is now safe to connect.
+[debug] [2020-05-16T03:36:24.238Z] [worker-~diagnostic~-65f13a07-add6-4afa-b0e8-31f6ebdf071a]: IDLE 
+[info] >  [Nest] 27565   - 2020-05-16 12:36:24 AM   [InstanceLoader] AppModule dependencies initialized +22ms {"user":"\u001b[32m[Nest] 27565   - \u001b[39m2020-05-16 12:36:24 AM   \u001b[38;5;3m[InstanceLoader] \u001b[39m\u001b[32mAppModule dependencies initialized\u001b[39m\u001b[38;5;3m +22ms\u001b[39m"}
+[info] >  [Nest] 27565   - 2020-05-16 12:36:24 AM   [RoutesResolver] AppController {/api/}: +24ms {"user":"\u001b[32m[Nest] 27565   - \u001b[39m2020-05-16 12:36:24 AM   \u001b[38;5;3m[RoutesResolver] \u001b[39m\u001b[32mAppController {/api/}:\u001b[39m\u001b[38;5;3m +24ms\u001b[39m"}
+[info] >  [Nest] 27565   - 2020-05-16 12:36:24 AM   [RouterExplorer] Mapped {/, GET} route +4ms {"user":"\u001b[32m[Nest] 27565   - \u001b[39m2020-05-16 12:36:24 AM   \u001b[38;5;3m[RouterExplorer] \u001b[39m\u001b[32mMapped {/, GET} route\u001b[39m\u001b[38;5;3m +4ms\u001b[39m"}
+[info] >  [Nest] 27565   - 2020-05-16 12:36:24 AM   [NestApplication] Nest application successfully started +9ms {"user":"\u001b[32m[Nest] 27565   - \u001b[39m2020-05-16 12:36:24 AM   \u001b[38;5;3m[NestApplication] \u001b[39m\u001b[32mNest application successfully started\u001b[39m\u001b[38;5;3m +9ms\u001b[39m"}
+[info] >  [Nest] 27565   - 2020-05-16 12:36:24 AM   Listening at http://localhost:3333/api +2ms {"user":"\u001b[32m[Nest] 27565   - \u001b[39m2020-05-16 12:36:24 AM   \u001b[32mListening at http://localhost:3333/api\u001b[39m\u001b[38;5;3m +2ms\u001b[39m"}
+[debug] [2020-05-16T03:36:25.815Z] File /Users/guiseek/web/workspace/against-covid/web-against-the-covid/dist/nxdeps.json changed, reloading triggers 
+[debug] [2020-05-16T03:36:26.717Z] File /Users/guiseek/web/workspace/against-covid/web-against-the-covid/dist/apps/cloud/functions/main.js.map changed, reloading triggers 
+[debug] [2020-05-16T03:36:26.718Z] File /Users/guiseek/web/workspace/against-covid/web-against-the-covid/dist/apps/cloud/functions/main.js changed, reloading triggers 
+[debug] [2020-05-16T03:36:27.721Z] [worker-pool] Shutting down IDLE worker (~diagnostic~) 
+[debug] [2020-05-16T03:36:27.721Z] [worker-~diagnostic~-65f13a07-add6-4afa-b0e8-31f6ebdf071a]: FINISHING 
+[debug] [2020-05-16T03:36:27.754Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-16T03:36:27.754Z] [worker-pool] Adding worker with key ~diagnostic~, total=2 
+[debug] [2020-05-16T03:36:27.754Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-16T03:36:27.755Z] [worker-~diagnostic~-9245a309-57ea-4eb1-b246-73177b247116]: Assigning socketPath: /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/fire_emu_27576.sock 
+[debug] [2020-05-16T03:36:27.755Z] [worker-~diagnostic~-9245a309-57ea-4eb1-b246-73177b247116]: BUSY 
+[debug] [2020-05-16T03:36:27.762Z] [worker-~diagnostic~-65f13a07-add6-4afa-b0e8-31f6ebdf071a]: exited 
+[debug] [2020-05-16T03:36:27.762Z] [worker-~diagnostic~-65f13a07-add6-4afa-b0e8-31f6ebdf071a]: FINISHED 
+[debug] [2020-05-16T03:36:28.239Z] [runtime-status] [27576] Functions runtime initialized. {"cwd":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid","node_version":"10.17.0"} 
+[debug] [2020-05-16T03:36:28.242Z] [runtime-status] [27576] Disabled runtime features: undefined 
+[debug] [2020-05-16T03:36:28.245Z] [runtime-status] [27576] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-16T03:36:28.246Z] [runtime-status] [27576] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:28.250Z] [runtime-status] [27576] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-16T03:36:28.278Z] [runtime-status] [27576] Checked functions.config() {"config":{}} 
+[debug] [2020-05-16T03:36:28.279Z] [runtime-status] [27576] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:28.280Z] [runtime-status] [27576] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-16T03:36:28.280Z] [runtime-status] [27576] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:28.281Z] [runtime-status] [27576] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"}} 
+[info] >  [Nest] 27576   - 2020-05-16 12:36:28 AM   [NestFactory] Starting Nest application... {"user":"\u001b[32m[Nest] 27576   - \u001b[39m2020-05-16 12:36:28 AM   \u001b[38;5;3m[NestFactory] \u001b[39m\u001b[32mStarting Nest application...\u001b[39m"}
+[info] ✔  functions[api]: http function initialized (http://localhost:5001/web-against-the-covid/us-central1/api).
+[debug] [2020-05-16T03:36:28.756Z] [worker-~diagnostic~-9245a309-57ea-4eb1-b246-73177b247116]: IDLE 
+[info] >  [Nest] 27576   - 2020-05-16 12:36:28 AM   [InstanceLoader] AppModule dependencies initialized +48ms {"user":"\u001b[32m[Nest] 27576   - \u001b[39m2020-05-16 12:36:28 AM   \u001b[38;5;3m[InstanceLoader] \u001b[39m\u001b[32mAppModule dependencies initialized\u001b[39m\u001b[38;5;3m +48ms\u001b[39m"}
+[info] >  [Nest] 27576   - 2020-05-16 12:36:28 AM   [RoutesResolver] AppController {/}: +37ms {"user":"\u001b[32m[Nest] 27576   - \u001b[39m2020-05-16 12:36:28 AM   \u001b[38;5;3m[RoutesResolver] \u001b[39m\u001b[32mAppController {/}:\u001b[39m\u001b[38;5;3m +37ms\u001b[39m"}
+[info] >  [Nest] 27576   - 2020-05-16 12:36:28 AM   [RouterExplorer] Mapped {/, GET} route +8ms {"user":"\u001b[32m[Nest] 27576   - \u001b[39m2020-05-16 12:36:28 AM   \u001b[38;5;3m[RouterExplorer] \u001b[39m\u001b[32mMapped {/, GET} route\u001b[39m\u001b[38;5;3m +8ms\u001b[39m"}
+[info] >  [Nest] 27576   - 2020-05-16 12:36:28 AM   [NestApplication] Nest application successfully started +4ms {"user":"\u001b[32m[Nest] 27576   - \u001b[39m2020-05-16 12:36:28 AM   \u001b[38;5;3m[NestApplication] \u001b[39m\u001b[32mNest application successfully started\u001b[39m\u001b[38;5;3m +4ms\u001b[39m"}
+[debug] [2020-05-16T03:36:52.686Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-05-16T03:36:52.687Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-05-16T03:36:52.687Z] Accepted request GET /web-against-the-covid/us-central1/api --> api
+[debug] [2020-05-16T03:36:52.688Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1 
+[debug] [2020-05-16T03:36:52.722Z] [worker-pool] addWorker(api) 
+[debug] [2020-05-16T03:36:52.722Z] [worker-pool] Adding worker with key api, total=1 
+[debug] [2020-05-16T03:36:52.722Z] [worker-pool] submitWork(triggerId=api) 
+[debug] [2020-05-16T03:36:52.724Z] [worker-api-aa41d430-9bd4-4dfc-bf29-a66eb4239a05]: Assigning socketPath: /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/fire_emu_27597.sock 
+[debug] [2020-05-16T03:36:52.724Z] [worker-api-aa41d430-9bd4-4dfc-bf29-a66eb4239a05]: BUSY 
+[debug] [2020-05-16T03:36:53.979Z] [runtime-status] [27597] Functions runtime initialized. {"cwd":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid","node_version":"10.17.0"} 
+[debug] [2020-05-16T03:36:53.983Z] [runtime-status] [27597] Disabled runtime features: undefined 
+[debug] [2020-05-16T03:36:53.995Z] [runtime-status] [27597] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-16T03:36:53.997Z] [runtime-status] [27597] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:54.002Z] [runtime-status] [27597] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-16T03:36:54.111Z] [runtime-status] [27597] Checked functions.config() {"config":{}} 
+[debug] [2020-05-16T03:36:54.112Z] [runtime-status] [27597] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:54.113Z] [runtime-status] [27597] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-16T03:36:54.114Z] [runtime-status] [27597] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-16T03:36:54.114Z] [runtime-status] [27597] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/guiseek/web/workspace/against-covid/web-against-the-covid/node_modules/firebase-admin/lib/index.js"}} 
+[info] >  [Nest] 27597   - 2020-05-16 12:36:54 AM   [NestFactory] Starting Nest application... {"user":"\u001b[32m[Nest] 27597   - \u001b[39m2020-05-16 12:36:54 AM   \u001b[38;5;3m[NestFactory] \u001b[39m\u001b[32mStarting Nest application...\u001b[39m"}
+[debug] [2020-05-16T03:36:54.731Z] [runtime-status] [27597] Trigger "api" has been found, beginning invocation! 
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-05-16T03:36:54.732Z] [runtime-status] [27597] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"} 
+[debug] [2020-05-16T03:36:54.732Z] [runtime-status] [27597] Running api in mode HTTPS 
+[debug] [2020-05-16T03:36:54.745Z] [runtime-status] [27597] Attempting to listen to socketPath: /var/folders/ch/rr3t2f_j1j72l3_2781k0dgh0000gn/T/fire_emu_27597.sock 
+[info] >  [Nest] 27597   - 2020-05-16 12:36:54 AM   [InstanceLoader] AppModule dependencies initialized +41ms {"user":"\u001b[32m[Nest] 27597   - \u001b[39m2020-05-16 12:36:54 AM   \u001b[38;5;3m[InstanceLoader] \u001b[39m\u001b[32mAppModule dependencies initialized\u001b[39m\u001b[38;5;3m +41ms\u001b[39m"}
+[info] >  [Nest] 27597   - 2020-05-16 12:36:54 AM   [RoutesResolver] AppController {/}: +4ms {"user":"\u001b[32m[Nest] 27597   - \u001b[39m2020-05-16 12:36:54 AM   \u001b[38;5;3m[RoutesResolver] \u001b[39m\u001b[32mAppController {/}:\u001b[39m\u001b[38;5;3m +4ms\u001b[39m"}
+[info] >  [Nest] 27597   - 2020-05-16 12:36:54 AM   [RouterExplorer] Mapped {/, GET} route +10ms {"user":"\u001b[32m[Nest] 27597   - \u001b[39m2020-05-16 12:36:54 AM   \u001b[38;5;3m[RouterExplorer] \u001b[39m\u001b[32mMapped {/, GET} route\u001b[39m\u001b[38;5;3m +10ms\u001b[39m"}
+[info] >  [Nest] 27597   - 2020-05-16 12:36:54 AM   [NestApplication] Nest application successfully started +3ms {"user":"\u001b[32m[Nest] 27597   - \u001b[39m2020-05-16 12:36:54 AM   \u001b[38;5;3m[NestApplication] \u001b[39m\u001b[32mNest application successfully started\u001b[39m\u001b[38;5;3m +3ms\u001b[39m"}
+[debug] [2020-05-16T03:36:54.789Z] [functions] Runtime ready! Sending request! 
+[debug] [2020-05-16T03:36:54.802Z] [runtime-status] [27597] Ephemeral server handling GET request 
+[debug] [2020-05-16T03:36:54.806Z] [runtime-status] [27597] Ephemeral server survived. 
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-05-16T03:36:54.818Z] [worker-api-aa41d430-9bd4-4dfc-bf29-a66eb4239a05]: IDLE 
+[debug] [2020-05-16T03:36:54.818Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  emulators: Shutting down emulators.
+[info] i  hub: Stopping emulator hub
+[debug] [2020-05-16T03:37:22.570Z] [worker-~diagnostic~-9245a309-57ea-4eb1-b246-73177b247116]: exited 
+[debug] [2020-05-16T03:37:22.570Z] [worker-~diagnostic~-9245a309-57ea-4eb1-b246-73177b247116]: FINISHED 
+[debug] [2020-05-16T03:37:22.571Z] [worker-api-aa41d430-9bd4-4dfc-bf29-a66eb4239a05]: exited 
+[debug] [2020-05-16T03:37:22.571Z] [worker-api-aa41d430-9bd4-4dfc-bf29-a66eb4239a05]: FINISHED 
+[info] i  functions: Stopping functions emulator

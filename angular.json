@@ -26,9 +26,7 @@
               "apps/webapp/src/assets",
               "apps/webapp/src/manifest.webmanifest"
             ],
-            "styles": [
-              "apps/webapp/src/styles.scss"
-            ],
+            "styles": ["apps/webapp/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -67,7 +65,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "webapp:build"
+            "browserTarget": "webapp:build",
+            "proxyConfig": "apps/webapp/proxy.conf.json"
           },
           "configurations": {
             "production": {
@@ -88,10 +87,7 @@
               "apps/webapp/tsconfig.app.json",
               "apps/webapp/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**",
-              "!apps/webapp/**"
-            ]
+            "exclude": ["**/node_modules/**", "!apps/webapp/**"]
           }
         },
         "test": {
@@ -130,13 +126,63 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
+            "tsConfig": ["apps/webapp-e2e/tsconfig.e2e.json"],
+            "exclude": ["**/node_modules/**", "!apps/webapp-e2e/**"]
+          }
+        }
+      }
+    },
+    "cloud-functions": {
+      "root": "apps/cloud/functions",
+      "sourceRoot": "apps/cloud/functions/src",
+      "projectType": "application",
+      "prefix": "cloud-functions",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@nrwl/node:build",
+          "options": {
+            "outputPath": "dist/apps/cloud/functions",
+            "main": "apps/cloud/functions/src/main.ts",
+            "tsConfig": "apps/cloud/functions/tsconfig.app.json",
+            "assets": ["apps/cloud/functions/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/cloud/functions/src/environments/environment.ts",
+                  "with": "apps/cloud/functions/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@nrwl/node:execute",
+          "options": {
+            "buildTarget": "cloud-functions:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
             "tsConfig": [
-              "apps/webapp-e2e/tsconfig.e2e.json"
+              "apps/cloud/functions/tsconfig.app.json",
+              "apps/cloud/functions/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**",
-              "!apps/webapp-e2e/**"
-            ]
+            "exclude": ["**/node_modules/**", "!apps/cloud/functions/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/cloud/functions/jest.config.js",
+            "tsConfig": "apps/cloud/functions/tsconfig.spec.json",
+            "passWithNoTests": true
           }
         }
       }
