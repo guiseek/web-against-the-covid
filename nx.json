@@ -25,6 +25,9 @@
     "webapp-e2e": {
       "tags": [],
       "implicitDependencies": ["webapp"]
+    },
+    "cloud-functions": {
+      "tags": ["scope:cloud", "type:app", "platform:server"]
     }
   }
 }
