@@ -21,16 +21,22 @@
             "polyfills": "apps/webapp/src/polyfills.ts",
             "tsConfig": "apps/webapp/tsconfig.app.json",
             "aot": true,
-            "assets": ["apps/webapp/src/favicon.ico", "apps/webapp/src/assets"],
-            "styles": ["apps/webapp/src/styles.scss"],
+            "assets": [
+              "apps/webapp/src/favicon.ico",
+              "apps/webapp/src/assets",
+              "apps/webapp/src/manifest.webmanifest"
+            ],
+            "styles": [
+              "apps/webapp/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/webapp/src/environments/environment.ts",
-                  "with": "apps/webapp/src/environments/environment.prod.ts"
+                  "replace": "environments/environment.ts",
+                  "with": "environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -52,7 +58,9 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "apps/webapp/ngsw-config.json"
             }
           }
         },
@@ -80,7 +88,10 @@
               "apps/webapp/tsconfig.app.json",
               "apps/webapp/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/webapp/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/webapp/**"
+            ]
           }
         },
         "test": {
@@ -91,6 +102,10 @@
             "passWithNoTests": true,
             "setupFile": "apps/webapp/src/test-setup.ts"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     },
@@ -115,8 +130,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/webapp-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/webapp-e2e/**"]
+            "tsConfig": [
+              "apps/webapp-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/webapp-e2e/**"
+            ]
           }
         }
       }

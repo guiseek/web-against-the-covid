@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@env": ["environments"],
+      "@env/*": ["environments/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

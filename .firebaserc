@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "web-against-the-covid": {
+      "hosting": {
+        "webapp": [
+          "web-against-the-covid"
+        ]
+      }
+    }
+  }
+}
