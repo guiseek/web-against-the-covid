@@ -45,7 +45,7 @@
     "@angular/router": "^9.1.0",
     "@angular/service-worker": "^9.1.0",
     "@nestjs/common": "^6.8.3",
-    "@nestjs/core": "^6.8.3",
+    "@nestjs/core": "^9.0.5",
     "@nestjs/platform-express": "^6.8.3",
     "@nrwl/angular": "9.3.0",
     "core-js": "^2.5.4",
